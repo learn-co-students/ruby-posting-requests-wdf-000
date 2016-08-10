@@ -1,6 +1,6 @@
 # Posting To APIs
 
-## Objectives
+## Objectives 
 
   1. Understand what POST params are
   2. Send POST requests with params via Postman and Faraday
