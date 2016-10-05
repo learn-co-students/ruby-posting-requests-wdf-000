@@ -12,7 +12,7 @@ class TipsController < ApplicationController
       req.body = '{ "oauth_token": "#{session[:token]}" }'
       req.body = '{ "v": "20160201"}'
       req.body = '{ "venueId": "#{params[:venue_id]}" }'
-      req.body = '{ "text": "#{params[:tip]}" }'
+      req.body = "{ \"text\": \"#{params[:tip]}\" }"
     end
     redirect_to tips_path
   end

@@ -2121,3 +2121,111 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-05 15:01:28 -0400
+
+
+Started GET "/" for ::1 at 2016-10-05 15:07:49 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 336ms (Views: 322.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-10-05 15:07:54 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pxly1HeNjmvOBslySce1GZC+CprOrRusNu6A7XDPIUwYifGzj4Ofsk0KStLmkTEu42mEa4QuFFgiJm0S0GrNyw==", "zipcode"=>"10002", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 270ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-10-05 15:07:59 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CHe1fIXOGkG+rNvMVzOPQDkWZP13CZOSFyyhSEY46fkv5zYbfcALmD2gWGz4ZQt3SsHqDD2KnGYD5Ey35p0Ffg==", "venue_id"=>"49ef508ff964a5209a681fe3", "tip"=>"great place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 63ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-05 15:07:59 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 150ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-05 15:08:43 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-05 15:08:44 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-05 15:08:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-10-05 15:08:44 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-10-05 15:08:44 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-05 15:08:44 -0400
+
+
+Started POST "/search" for ::1 at 2016-10-05 15:08:48 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mCnHpcRM+qQ258AV5IKDCunuJQmozHTSym7Aqeck/Iy/uUTCPELrfbXrQ7VL1Ac9mjmr+OJPeybepi1WR4EQCw==", "zipcode"=>"10002", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 304ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-10-05 15:08:53 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knmKLgrmy2snXbxWgv0LXZNpnKUOGEi/O7HwS881WUe16QlJ8ujasqRRP/Ytq49q4L4SVESbR0sveR20b5C1wA==", "venue_id"=>"4e148d78922ece3933e9860b", "tip"=>"great place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 181ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-05 15:08:53 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-10-05 15:11:51 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-10-05 15:11:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-10-05 15:11:51 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-10-05 15:11:51 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-05 15:11:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-10-05 15:11:51 -0400
+
+
+Started POST "/search" for ::1 at 2016-10-05 15:11:55 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iBQXl+2FHa+bKxBXIRmREgc8ChRZk4aAkb3p4Bro2sivhJTwFYsMdhgnk/eOTxUldOuE5RMQiXSFdQQfuk02Tw==", "zipcode"=>"10002", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 706ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-10-05 15:11:59 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MBlSB0wX4AodxfgYtZ4MHSa83YbT6XRTTrx3cnMiiscXidFgtBnx057Je7gayIgqVWtTd5lqe6dadJqN04dmQA==", "venue_id"=>"4d67f6c554c360fce5440799", "tip"=>"great place", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 65ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-10-05 15:11:59 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 27.9ms | ActiveRecord: 0.0ms)
