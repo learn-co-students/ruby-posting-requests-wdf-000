@@ -4,6 +4,7 @@
   <%= text_field_tag :zipcode %>
   <%= submit_tag "Search!" %>
 <% end %>
+<%= session[:token] %>
 <div>
   <% if @error %>
     <p><%= @error %></p>
