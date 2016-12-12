@@ -1,12 +1,28 @@
 class TipsController < ApplicationController
 
   def create
-    resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
-      req.params['oauth_token'] = session[:token]
-      req.params['v'] = '20160201'
-      req.params['venuId'] = params[:venue_id]
-      req.params['text'] = params[:tip]
-    end
+    # binding.pry
+    # begin
+    id = params[:venue_id]
+    tip = params[:tip]
+      resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
+
+        req.params['oauth_token'] = session[:token]
+        req.params['v'] = '20160201'
+        # req.params['venueId'] = params[:venue_id]
+        req.params['venueId'] = id
+        # req.params['text'] = params[:tip]
+        req.params['text'] = tip
+        # req.options.timeout = 0
+        binding.pry
+      end
+
+      binding.pry
+      @output = params[:tip]
+
+    # rescue Faraday::TimeoutError
+    #   @error = "There was a timeout. Please try again."
+    # end
 
     redirect_to tips_path
   end
@@ -21,5 +37,5 @@ class TipsController < ApplicationController
     @results = JSON.parse(resp.body)["response"]["list"]["listItems"]["items"]
   end
 
-  
+
 end
