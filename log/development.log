@@ -1535,3 +1535,543 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/" for ::1 at 2016-12-12 11:11:02 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 743ms (Views: 729.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:11:04 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:16:51 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:31:55 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 330ms (Views: 319.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:31:59 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EsA8OuLQDi8sCrRiBWk5xHRt0LjwFjpw/heYGp7+a8mgd+jtBY7Ql/FVPG3D2t3lZCJuS8uStpLfrDnmM2FNNw==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 294ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:32:07 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2MutjJzV1ZaZDdcKUC6T5lG7/odxFt5xSH2zNAuIhk5qfHlbe4sLLkRSXwWWnXfHQfRAdEqSUpNpxhLIphegsA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Great!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 85ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:32:08 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.7ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (86.2ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (184.9ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:49:47 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 318ms (Views: 306.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:49:50 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OSpt1JiEXUJ6kFPxmca6Wm7vZ7derTnvWI0GsIyPtbeLnbkDf9qD+qfP2/5fdV57fqDZRGUptQ15NqdMIRCTSQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 374ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:49:56 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bUt3WonrJvAfe7X52BRcp2oq/vFMllmHUvg05rl0c0Df/KONbrX4SMIkPfYep7iGemVAAncS1WVzQ5UaFOtVvg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Nice!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 155ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:49:56 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.2ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (159.6ms)
+
+
+Started GET "/" for ::1 at 2016-12-12 11:50:42 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 295ms (Views: 280.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:50:46 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f6z1gj8eOlnXFEC+Z9yoq+KHog2pUeHEq0tREf/GPJnNGyFV2EDk4QpLyLGhb0yK8sgc/pLVbSaK8PDtUlkaZw==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 629ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:50:50 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tWF5AEWtPIyUiM6UxY8PDK9g9oTFl5x0F873JUxtIdYH1q3XovPiNEnXRpsDPOstvy9Id/4TEJY2dVbZ4fIHKA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Nice!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 72ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:50:50 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/tips_controller.rb:8:in `index'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.7ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (73.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (155.9ms)
+
+
+Started PUT "/__web_console/repl_sessions/1a2521e3f2dec1483ce6d84452341ad8" for ::1 at 2016-12-12 11:51:22 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1a2521e3f2dec1483ce6d84452341ad8" for ::1 at 2016-12-12 11:51:32 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1a2521e3f2dec1483ce6d84452341ad8" for ::1 at 2016-12-12 11:51:55 -0500
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:54:04 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 335ms (Views: 322.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:54:09 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0GHY/P0Qb6+6pBZPWAb55bOGGEh7K6I1OMpu3FraC42tLKaJEPviekIk6iRmROjhSGkr8DPlgC6C1aQFqLXg==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 666ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:54:13 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kzQQUXy1/PpPjaFHtQFu971Vqxec3XduEtwXcBiVsUghg8SGm+siQpLSKUhzsorWrRoV5KdZ+4wzZ7aMtQqXtg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Hi", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 159ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:54:13 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:55:33 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 480ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:55:34 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:55:59 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 108ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:11 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 104ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:12 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:42 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:51 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 87ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:52 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 98ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:56:53 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:57:01 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:57:05 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0eyWjA5llEW/9dCD1GKc2Me+RF4K/dgAJkwUuKuxhxljW0Jb6TtK/WKqWIwS0Xj51/H6rTF5VOIH97VEBi6h5w==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 247ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:57:10 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SR9fy/6+YCEyI9s97lBJaRY11W+trDIZzGlaMUcpJ/r7qIscGeC+me98UzIo461IBnprnJYovvvt0vvN6rYBBA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Yum!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 227ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:57:10 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:57:25 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (25640.0ms)
+Completed 500 Internal Server Error in 25772ms (ActiveRecord: 0.0ms)
+
+SystemExit (exit):
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb__1615693376609127219_70315516070780'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (345.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (85.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.7ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (532.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.1ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (191.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.2ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (330.2ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:57:54 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 286ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:57:56 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 343ms (Views: 174.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:57:57 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 300ms (Views: 179.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:58:22 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 215ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:58:26 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"asvekmO78iq3YAeBJ8oHI79Kf2rumNMFJ1bmlQQE6xfYfApFhOUskmo/j47heeMCrwXBmdUcX+cG7UdpqZvN6Q==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (179.4ms)
+Completed 200 OK in 593ms (Views: 350.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:58:30 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3fyeGdpeslOxV19sMk1XdLLcl8lcgn3CtaGubDZ9cqFvS0rOPQBs62wI12P0/rNVopMpOmcG8SCUGg+Qm+JUXw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"YUM!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"utf8"=>"✓", "authenticity_token"=>"3fyeGdpeslOxV19sMk1XdLLcl8lcgn3CtaGubDZ9cqFvS0rOPQBs62wI12P0/rNVopMpOmcG8SCUGg+Qm+JUXw==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"YUM!", "commit"=>"Add Tip", "controller"=>"tips", "action"=>"create"}):
+  app/controllers/tips_controller.rb:18:in `create'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (210.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (68.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (354.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.1ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (92.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (202.2ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 11:58:52 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 300ms (Views: 284.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 11:58:56 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BkjUzAxOdhu/aKbsUtNLGXJz6CqpFXN2pNoKIISBD0+0/wAb6xCoo2I3LuOUYK84YjxW2ZKR/5SFYavcKR4psQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (171.2ms)
+Completed 200 OK in 595ms (Views: 346.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 11:58:58 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SbXo46vZGnw7Ka7Itw7QFWhZsaHyGyJXMZFJpHTinuL7Ajw0TIfExOZ2JsdxvTQ0eBYPUsmfrrUQKuhY2X24HA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"qfe", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 118ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 11:58:59 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"controller"=>"tips", "action"=>"index"}):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (207.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (51.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (342.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (101.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (206.5ms)
+
+
+Started PUT "/__web_console/repl_sessions/080d341b3df776d756afb01aed55821b" for ::1 at 2016-12-12 11:59:05 -0500
+
+
+Started PUT "/__web_console/repl_sessions/080d341b3df776d756afb01aed55821b" for ::1 at 2016-12-12 11:59:22 -0500
+
+
+Started POST "/search" for ::1 at 2016-12-12 12:54:43 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BkjUzAxOdhu/aKbsUtNLGXJz6CqpFXN2pNoKIISBD0+0/wAb6xCoo2I3LuOUYK84YjxW2ZKR/5SFYavcKR4psQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (165.7ms)
+Completed 200 OK in 653ms (Views: 371.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 12:55:17 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BkjUzAxOdhu/aKbsUtNLGXJz6CqpFXN2pNoKIISBD0+0/wAb6xCoo2I3LuOUYK84YjxW2ZKR/5SFYavcKR4psQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (167.6ms)
+Completed 200 OK in 668ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 12:55:47 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rL5iieemaYbpunk91685TDdwPGQEFF/St9pakN43kFseCbZeAPi3PjTl8TIRHN1tJz+Clz+Q0zCWYftsc6i2pQ==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"eakjfhbcawrhjsc", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 295ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 12:55:47 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 239ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"controller"=>"tips", "action"=>"index"}):
+  app/controllers/tips_controller.rb:9:in `index'
+
+
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (190.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (55.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (339.4ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.8ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.9ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (179.6ms)
+
+
+Started PUT "/__web_console/repl_sessions/0d0907b62876fef1d96602a31b5e01d9" for ::1 at 2016-12-12 12:55:55 -0500
+
+
+Started PUT "/__web_console/repl_sessions/0d0907b62876fef1d96602a31b5e01d9" for ::1 at 2016-12-12 12:56:02 -0500
+
+
+Started PUT "/__web_console/repl_sessions/0d0907b62876fef1d96602a31b5e01d9" for ::1 at 2016-12-12 12:56:13 -0500
+
+
+Started POST "/search" for ::1 at 2016-12-12 12:57:50 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BkjUzAxOdhu/aKbsUtNLGXJz6CqpFXN2pNoKIISBD0+0/wAb6xCoo2I3LuOUYK84YjxW2ZKR/5SFYavcKR4psQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 968ms (Views: 328.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 12:57:54 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VyL7oawNPuG0tp9QAkTHmcpcf39mnyhBe8qUCvePfLzllS92S1PgWWnpF1/E9yO42hPBjF0bpKNacTX2WhBaQg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"aec", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 61772ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 12:58:56 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 191ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-12 12:59:39 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 12:59:44 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Et5q5GJUK5p6eciLytpHC/6gCNobnWuQIJ7v8mPD6legab4zhQr1IqcmQIQMaaMq7u+2KSAZ53IBJU4OzlzMqQ==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 671ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 12:59:51 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OY8Aim2T5TQZZkD46ZsvOuerMWE5+4aF4v77NFdW6u6LONRdis07jMQ5yPcvKMsb9+SPkgJ/CmfDRVrI+snMEA==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"Great", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 84ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 12:59:51 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 101ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 12:59:54 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-12 13:00:11 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 13:00:16 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rw8s7bap+9/rlyVevkN+onooLcOjoNcZjbD5myv0Qj31uPg6UfclZzbIrVF48JqDameTMJgkW/usC1hnhmtkww==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 242ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 13:00:19 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sVJWL6nRtzP0gioxmCXrPCnPz/ZEQOkwyapVM3X4TNQD5YL4To9piyndoj5elg8dOYBxBX/EZdLoEfTP2GdqKg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"jhgjh", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 42332ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 13:01:02 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 260ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-12-12 13:01:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-12-12 13:01:20 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6m5668D25Ex2qnPbpGF6FwG5M4A1pJZ5n+SwLM26AVlY2a48J6g69Kv1+9Ri0p42EfaNcw4gGpu+XxHQYCUnpw==", "zipcode"=>"11435", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 253ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-12-12 13:01:23 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KgNhxp78KsIc9ikfRSjeyv3sXVEwRWPec5RCGIS+qjSYtLUReaL0esGpoRCDmzrr7aPjogvB7zxSL+PkKSGMyg==", "venue_id"=>"3fd66200f964a5204ee41ee3", "tip"=>"aejkshvcbkEJAfhckwjAbfc", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 344ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-12-12 13:01:24 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 275ms (Views: 23.4ms | ActiveRecord: 0.0ms)
